@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function Navbar() {
     return (
         <div>
@@ -12,6 +13,9 @@ export default function Navbar() {
                             <a href="#" className="text-gray-300 hover:text-white px-3 py-2">Mais</a>
                             <a href="#" className="text-gray-300 hover:text-white px-3 py-2">Serviços</a>
                             <a href="#" className="text-gray-300 hover:text-white px-3 py-2">Contato</a>
+                            <Link href="../produtos">
+                                <h1>Bruno</h1>
+                            </Link>
                         </div>
                     </div>
                 </div>

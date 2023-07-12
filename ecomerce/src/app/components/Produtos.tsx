@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link" 
 export default function Produtos() {
     return (
         <div className="bg-white">
@@ -26,7 +27,7 @@ export default function Produtos() {
                             <p className="text-sm font-medium text-green-900">R$:19,90</p>
                         </div>
                     </div>
-
+                   
                 </div>
             </div>
         </div>
