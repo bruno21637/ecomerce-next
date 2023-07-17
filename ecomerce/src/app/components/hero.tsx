@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function Hero() {
     return (
-        <div className="bg-black h-screen" >
+        <div className="bg-black h-[67vh]" >
             <div>
                 <h1 className="uppercase mt-40 font-light tracking-[1em] ml-10 text-left text-4xl  text-white">E-SHOP</h1>
             </div>
